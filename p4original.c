@@ -12,8 +12,7 @@ void input_array(int a, int b[a])
   {
     printf("enter the values into the array\n");
     scanf("%d",&b[i]);
-
-  }
+ }
 }
 int sum_n_array(int n, int a[n])
 {
