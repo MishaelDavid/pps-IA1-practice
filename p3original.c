@@ -9,8 +9,9 @@ return n;
 
 int sum_n(int n)
 {
+  int i;
   int sum=0;
-  for(int i=1; i<=n; i++)
+  for(i=0; i<=n; i++)
   {
     sum = sum + i;
   }
@@ -21,16 +22,16 @@ void output(int n, int sum)
 {
 int i;
 for(i=1;i<=n;i++)
-{
-  printf("%d + ",i);
-}
-printf("=%d\n",sum);
+  {
+  printf("%d+  ",i);
+  }
+  printf("=%d\n",sum);
 }
 int main()
 {
-int a,b,c;
-a=input_n();
-b=sum_n(a);
-output(a,b);
+int n,sum;
+n=input_n();
+sum=sum_n(n);
+output(n,sum);
 return 0;
 }

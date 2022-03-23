@@ -20,9 +20,9 @@ void output(int a, int b, int c, int largest)
    if(largest == 0)
      printf("%d is largest among %d,%d,%d",a,a,b,c);
    else if(largest == 1)
-      printf("%d is largest among %d,%d,%d",b,a,b,c);
+     printf("%d is largest among %d,%d,%d",b,a,b,c);
    else
-      printf("%d is largest among %d,%d,%d",c,a,b,c);
+     printf("%d is largest among %d,%d,%d",c,a,b,c);
  } 
  int main()
  {
