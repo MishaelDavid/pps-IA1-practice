@@ -2,7 +2,7 @@
 int input_n()
 {
   int n;
-printf("enter a number\n");
+printf("Enter a number\n");
 scanf("%d",&n);
 return n;
 }
